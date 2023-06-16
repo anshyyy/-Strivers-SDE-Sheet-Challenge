@@ -77,6 +77,7 @@ void setZeros(vector<vector<int>> &matrix)
 		for(int j=0;j<matrix[0].size();j++){
 			matrix[0][j]=0;
 		}
+		
 	}
 	if(isCol){ //checking first column
 		for(int i=0;i<matrix.size();i++){
